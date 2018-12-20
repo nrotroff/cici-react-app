@@ -1,0 +1,159 @@
+@media only screen and (max-width: 768px) {
+    .Section {
+        width: 80%
+    }
+} 
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .Section {
+        width: 80%
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .Section {
+        width: 60%
+    }
+
+    #Award_Text {
+        text-align: justify
+    }
+
+    #Main_Body {
+        background-image: url('astronomy-constellation-dark-998641.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+#Main_Body {
+    /* background-color: #FDFFFF; */
+    
+    background-color: black;
+    color: #FDFFFF;
+    min-height: 100vh;
+    height: 100%;
+    align-items: center;
+    padding-top: 8vh;
+    flex-direction: column
+}
+
+.Section_Title {
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+}
+
+#Title {
+    font-size: 5em;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+#LesserTitle {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: -1vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+#TitleDesc {
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 13vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Mission_Statement.hide {
+    opacity: 0;
+    height: 92vh;
+    padding-top: 8vh;
+    flex-direction: column
+}
+
+.Mission_Statement {
+    transition: opacity 0.5s;
+    opacity: 1;
+    height: 92vh;
+    padding-top: 8vh;
+    flex-direction: column;
+}
+
+.Award_Abstract.hide {
+    opacity: 0;
+    padding-top: 10vh;
+    flex-direction: column;
+    padding-bottom: 10vh;
+}
+
+.Award_Abstract {
+    transition: opacity 1.5s;
+    opacity: 1;
+    padding-top: 10vh;
+    flex-direction: column;
+    padding-bottom: 10vh;
+}
+
+.Project_Personnel.hide {
+    opacity: 0;
+    padding-top: 10vh;
+    flex-direction: column;
+    padding-bottom: 10vh;
+}
+
+.Project_Personnel {
+    transition: opacity 1.5s;
+    opacity: 1;
+    padding-top: 10vh;
+    flex-direction: column;
+    padding-bottom: 10vh;
+}
+
+#Project_Personnel_Text {
+    display: flex;
+    flex-direction: column
+}
+
+.Project_Personnel_Heading {
+    padding-top: 2vh;
+    font-size: 1.8em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Personnel {
+    padding-left:  2vw;
+    padding-top: 1vh
+}
+
+.PM_Personnel_Heading {
+    padding-top: 2vh;
+    font-size: 1.4em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Publications_Section.hide {
+    opacity: 0;
+    padding-top: 10vh;
+    flex-direction: column;
+    padding-bottom: 10vh;
+}
+
+.Publications_Section {
+    transition: opacity 1.5s;
+    opacity: 1;
+    padding-top: 10vh;
+    flex-direction: column;
+    padding-bottom: 10vh;
+}
+
+#Publications_Text {
+    padding-top: 2vh
+}
+
+.Publication_Link {
+    color: #FDFFFF;
+    font-size: 1.3em;
+    padding-left: 2vw
+}
+
